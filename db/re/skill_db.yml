@@ -35975,6 +35975,7 @@ Body:
     Type: Weapon
     TargetType: Self
     DamageFlags:
+      Critical: true
       Splash: true
     Range: 9
     Hit: Single
@@ -36119,6 +36120,7 @@ Body:
     Type: Weapon
     TargetType: Attack
     DamageFlags:
+      Critical: true
       Splash: true
     Range: 3
     Hit: Single
@@ -36241,6 +36243,7 @@ Body:
     Type: Weapon
     TargetType: Attack
     DamageFlags:
+      Critical: true
       Splash: true
     Range: 3
     Hit: Multi_Hit
@@ -36273,7 +36276,7 @@ Body:
       Splash: true
     Range: 3
     Hit: Multi_Hit
-    HitCount: -3
+    HitCount: 3
     Element: Weapon
     SplashArea: 3
     GiveAp: 4
@@ -36363,7 +36366,7 @@ Body:
     HitCount: 5
     Element: Weapon
     SplashArea: 3
-    Cooldown: 1000
+    Cooldown: 700
     Requires:
       SpCost:
         - Level: 1
